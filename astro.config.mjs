@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   site: "https://frvnzz.github.io/project-venus/",
+  base: "/project-venus/",
   devToolbar: {
     enabled: false,
   },
