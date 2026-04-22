@@ -4,7 +4,7 @@ import "~/styles/base.css";
 
 import smartypants from "smartypants";
 
-const siteName = "Project Venus";
+const siteName = "I miss you so much";
 
 export interface Props {
   title: string;
@@ -18,7 +18,7 @@ export interface Props {
 const { title, description, image } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const pageTitle = Astro.url.pathname === "/" ? title : `${title} · ${siteName}`;
+const pageTitle = title;
 const baseURL = import.meta.env.BASE_URL;
 ---
 
