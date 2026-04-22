@@ -13,7 +13,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   description="A small birthday gallery for a very special person."
 >
   <section class="hero">
-    <p class="eyebrow">For my favorite person</p>
+    <p class="eyebrow">To my favorite person, my dear Riccarda</p>
     <h1>Happy Birthday, I love you!</h1>
     <p class="lede">
       A little gallery of us. I love you so much and all the joy you bring into
@@ -94,8 +94,16 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 
   :global(body) {
     background:
-      radial-gradient(circle at 18% 8%, rgba(255, 214, 230, 0.86), transparent 38%),
-      radial-gradient(circle at 82% 22%, rgba(218, 186, 200, 0.2), transparent 48%),
+      radial-gradient(
+        circle at 18% 8%,
+        rgba(255, 214, 230, 0.86),
+        transparent 38%
+      ),
+      radial-gradient(
+        circle at 82% 22%,
+        rgba(218, 186, 200, 0.2),
+        transparent 48%
+      ),
       linear-gradient(
         180deg,
         #fff7fb 0%,
@@ -165,7 +173,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
         rgba(255, 255, 255, 0.96) 0%,
         rgba(246, 230, 240, 0.9) 100%
       ),
-      radial-gradient(circle at 20% 18%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0) 54%);
+      radial-gradient(
+        circle at 20% 18%,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0) 54%
+      );
     color: #54172f;
     font-size: 1.02rem;
     font-weight: 400;
@@ -228,7 +240,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
         rgba(255, 255, 255, 0.98) 0%,
         rgba(245, 221, 235, 0.95) 100%
       ),
-      radial-gradient(circle at 20% 18%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0) 54%);
+      radial-gradient(
+        circle at 20% 18%,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0) 54%
+      );
   }
 
   .miss-me-button:focus-visible {
